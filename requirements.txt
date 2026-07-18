@@ -1,8 +1,8 @@
 # Pip requirements for platforms that don't use uv/pyproject (e.g. Replit).
-# Mirrors the dependencies in pyproject.toml.
-numpy>=2.4.6
-pandas>=3.0.3
-plotly>=6.7.0
-scipy>=1.17.1
-streamlit>=1.58.0
-yfinance>=1.4.1
+# Relaxed lower bounds so a public package index (PyPI) can resolve them.
+numpy>=1.26
+pandas>=2.1
+plotly>=5.18
+scipy>=1.11
+streamlit>=1.30
+yfinance>=0.2.40
