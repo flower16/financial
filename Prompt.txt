@@ -1,0 +1,30 @@
+I want to build a simple stock market portfolio analyzer that does the following things:
+
+I want to create three tabs:
+
+In the first tab, I want the ability to upload a CSV with my stock market transaction history and also want the ability to manually enter stock transactions. 
+
+Second tab, I want a view, a snapshot view of my consolidated portfolio. Something like a pie chart that gives portfolio allocation and also a stock-wise breakdown of current holdings with things like: 
+- current quantity 
+- average cost basis 
+- current prices 
+- profits and so on. 
+
+The third tab I want you to show the historic performance. Create metric cards for some metrics like: 
+- Total lifetime investment 
+- Total proceeds from sale s 
+- Current portfolio value 
+- Total returns 
+- XIRR. 
+
+I want you to first brainstorm with me about your plan. 
+
+Give me a sense of the file structure you're thinking about and also the architecture that you're thinking about. 
+
+Do not write any code until I give you the go ahead
+
+Use streamlit. Create a UV project. Finance data from Yfinance
+
+How to run the app ?
+uv run portfolio-analyzer
+# or: uv run streamlit run src/portfolio_analyzer/app.py
